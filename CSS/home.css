@@ -1,0 +1,174 @@
+    *{
+        margin: 0; 
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        outline: none; 
+        border: none;
+        text-decoration: none;
+        text-transform: capitalize;
+        transition: .2s linear;
+    }
+
+    html{
+        font-size: 62.5%;
+        scroll-behavior: smooth;
+        scroll-padding-top: 6rem;
+        overflow-x: hidden;
+    }
+
+    header{
+        position: fixed;
+        top: 0; left: 0; right: 0;
+        background: white;
+        padding: 0.8rem 9%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        z-index: 1000;
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+    }
+
+    header .logo{
+    font-size: 3rem;
+        color: #d94fa9;
+        font-weight: bolder;
+    }
+
+    header .logo span{
+        color: #ffaad4;
+        font-size: 4rem;
+        transform: rotate(-15deg);
+    }
+
+    header .icons a:hover {
+        color: #ffaad4;
+        transform: scale(1.2) rotate(10deg);
+    }
+
+
+
+    header .navbar a{
+        font-size: 3rem;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 0 1.5rem;
+        color: #d66192;
+        text-align: center;
+    }
+
+    header .navbar a:hover{
+        color: var(--pink);
+    }
+
+    header .icons a{
+        text-align: right;
+        font-size: 2rem;
+        color: rgb(204, 125, 138);
+        margin-left: 1.5rem;
+    }
+
+    /*HOME*/
+
+    .home{
+        position: relative; 
+        min-height: 100vh;
+    }
+
+    .window{
+        position: absolute;
+        right: 10%;
+        top: 50%; 
+        transform: translateY(-50%); 
+        text-align: right;
+        padding-right: 20px;
+    }
+
+    .window h1{
+        font-family: 'Pacifico', cursive;
+        font-size: 4vw;
+        color: #4b9d71b3;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        letter-spacing: 1px;
+        margin: 0;
+        padding-top: 10%;
+    }
+
+    .window h4{
+        font-family: 'Lobster', cursive;
+        font-size: 1.5vw;
+        color: #165d1c;
+        letter-spacing: 0.5px;
+        line-height: 1.4;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        padding-top: 2%;
+        padding-left: 40%;
+    }
+
+    /*body*/
+
+    body {
+        background-image: url('../IMAGES/webbg.png');
+        background-repeat: no-repeat;  
+        background-size: cover;        
+        background-position: center top -95px; 
+        min-height: 100vh; 
+    }
+
+    /*image*/
+    
+    .container img {
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+    .container img:hover {
+        transform: scale(1.2) rotate(-10deg);
+    }
+
+    .port1, .port2, .port3, .port4, .port5, .port6 {
+        position: absolute;
+        width: 200px;
+        cursor: pointer;
+    }
+
+    /* Positioning */
+    .port1 { 
+        top: 9%; 
+        left: 9%; 
+        height: 28%; 
+        width: auto; 
+    }
+
+    .port2 { 
+        top: 42%; 
+        left: 7%; 
+        height: 28%; 
+        width: auto; }
+        
+    .port3 {
+        top: 67%; 
+        left: 15%; 
+        height: 28%; 
+        width: auto; 
+    }
+
+    .port4 { 
+        top: 27%; 
+        left: 22%; 
+        height: 28%; 
+        width: auto; 
+    }
+
+    .port5 { 
+        top: 11%; 
+        left: 40%; 
+        height: 28%; 
+        width: auto; 
+    }
+
+    .port6 { 
+        top: 17%; 
+        left: 58%; 
+        height: 28%; 
+        width: auto; 
+    }
